@@ -1,0 +1,22 @@
+$fn=10;
+
+difference(){
+    cube([45,35,4]);
+    translate([0,12.5,2])cube([45.1,19,2.1]);   
+}
+cube([45,2.5,8]);
+translate([0,32.5,0])cube([45,2.5,8]);
+difference(){
+    cube([3,35,8]);
+    translate([1.5,0,2])cube([3,35,4.5]);
+}
+difference(){
+    translate([0,-7.5,0])cube([10,50,2]);
+    translate([5,-4,-1])rotate([0,0,90])cylinder(r=1.5,h=100);
+    translate([5,39,-1])rotate([0,0,90])cylinder(r=1.5,h=100);
+}
+difference(){
+    translate([30,-7.5,0])cube([10,50,2]);
+    translate([35,-4,-1])rotate([0,0,90])cylinder(r=1.5,h=100);
+    translate([35,39,-1])rotate([0,0,90])cylinder(r=1.5,h=100);
+}

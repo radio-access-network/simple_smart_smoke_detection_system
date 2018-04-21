@@ -15,3 +15,11 @@ An alarm from the Arduino will flash lights or ring a bell in my house.
 Also i'll add a small touch screen in the hallway, where you can view the current alarm state.
 
 Later i'm planning to run a server on the Pi (e.g. with a python script) and let the Arduinos connect as Clients, so i don't have to use polling for querying the detectors.
+
+18/4/21
+
+So i finished one control box for a smoke detector. Here is the image:
+
+<img src="https://github.com/anwofis/simple_smart_smoke_detection_system/blob/master/images/box.jpg" title="Box" width="700">
+
+I'll install it soon and connect it to my home network.
