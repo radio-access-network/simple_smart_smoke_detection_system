@@ -23,3 +23,8 @@ So i finished one control box for a smoke detector. Here is the image:
 <img src="https://github.com/anwofis/simple_smart_smoke_detection_system/blob/master/images/box.jpg" title="Box" width="700">
 
 I'll install it soon and connect it to my home network.
+
+18/4/28
+
+I've added the Arduino source code and a beta-version of the software for querying three smoke detectors. All will be installed and tested soon. At the moment software and detector µC - 
+once set into alarm mode - must be restarted to end the alarm.
